@@ -14,6 +14,9 @@
 		</div>
 		<Testimony />
 		<LatestContent />
+		<FeaturedContent />
+		<Testimony />
+		<Footer />
 	</div>
 </template>
 
@@ -22,13 +25,17 @@
 	import Hero from './Hero.vue'
 	import Testimony from './Testimony.vue'
 	import LatestContent from './LatestContent.vue'
+	import FeaturedContent from './FeaturedContent.vue'
+	import Footer from './Footer.vue'
 
 	export default {
 		components: {
 			Header,
 			Hero,
 			Testimony,
-			LatestContent
+			LatestContent,
+			FeaturedContent,
+			Footer
 		}
 	}
 </script>
