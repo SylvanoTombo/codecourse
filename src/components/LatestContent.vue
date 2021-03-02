@@ -41,6 +41,13 @@
 
 				</div>
 			</div>
+			<div class="flex justify-center">
+				<a 
+					href="#" 
+					class="bg-blue-500 px-5 py-4 text-white rounded">
+					Browse all courses
+				</a>
+			</div>
 		</div>
 </template>
 
